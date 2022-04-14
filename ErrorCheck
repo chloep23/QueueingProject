@@ -1,0 +1,16 @@
+public static void nameinputCheck(){
+        String nameinput;
+        Scanner in = new Scanner(System.in);
+        nameinput = in.nextLine();
+        if(in.hasNextDouble() || in.hasNextInt()){
+            System.out.println(nameinput + " is not a valid name. Please input a name.");
+        }
+    }
+    public static void gradeinputCheck(){
+        double gradeinput;
+        Scanner in = new Scanner(System.in);
+        gradeinput = in.nextDouble();
+        if(!in.hasNextDouble()){
+            System.out.println(gradeinput + " is not a valid GPA. Please input a valid gpa.");
+        }
+    }
