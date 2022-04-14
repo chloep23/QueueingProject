@@ -1,5 +1,4 @@
-# QueueingProject
-// Class Ranking 
+# QueueingProject - Class Ranking 
 
 ### Note the Following: 
 - All of the code must be written in Java.
